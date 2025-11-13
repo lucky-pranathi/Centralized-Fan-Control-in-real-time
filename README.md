@@ -22,18 +22,34 @@ Components Used
 •	Jumper Wires
 
 How It Works
+
 The ESP32 reads temperature from the DHT11 sensors.
+
 Values are averaged.
+
 Based on the average:
+
 •	10–25°C → Low speed
+
 •	26–30°C → Medium speed
+
 •	31–35°C → High speed
+
 •	35°C → Full speed + Buzzer ON
+
 •	<10°C → Fan OFF
+
 Features
+
 •	Automatic fan speed control
+
 •	Buzzer alert for high temperature
+
 •	Serial monitor display for readings
+
 •	Real-time average temperature calculation
+
 •	Saves energy by running fan efficiently
+
 •	Improves reliability of centralized cooling system
+
